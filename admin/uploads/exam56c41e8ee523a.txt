@@ -1,0 +1,277 @@
+q Can you combine the following two statements into one?
+  char *p;
+  p = (char*) malloc(100);
+a char p = *malloc(100);
+b char *p = (char) malloc(100);
+c char *p = (char*)malloc(100);
+d char *p = (char *)(malloc*)(100);
+A char *p = (char*)malloc(100);
+
+q what is the return value of this substr function?
+  &lt;?php
+  $rest = substr("abcdef", -1);
+  $rest = substr("abcdef", 0, -1);
+  ?&gt;
+a f,abcde
+b b,abcdef 
+c a,fedcb 
+d a,abcde 
+A f,abcde
+
+q A value that has no defined value is expressed in PHP with the following keyword:
+a undef 
+b null
+c None 
+d There is no such concept in PHP
+A null
+
+q What do the following declaration signify?
+  int *ptr[30];
+a ptr is a pointer to an array of 30 integer pointers.
+b ptr is a array of 30 pointers to integers.
+c ptr is a array of 30 integer pointers.
+d ptr is a array 30 pointers.
+A ptr is a array of 30 pointers to integers.
+
+q Which of the following is correct way to define the function fun() in the below program?
+  #include&lt;stdio.h&gt;
+  int main()
+  {
+  int a[3][4];
+  fun(a);
+  return 0;
+  }
+a void fun(int p[][4]){	}
+b void fun(int *p[4]){	}
+c void fun(int *p[][4]){	}
+d void fun(int *p[3][4]){	}
+A void fun(int p[][4]){	}
+
+q What will be the output of the program (sample.c) given below if it is executed from the command line?
+  cmd&gt; sample friday tuesday sunday
+  #include &lt;stdio.h &gt;
+  int main(int sizeofargv, char *argv[])
+  {
+  while(sizeofargv)
+  printf("%s", argv[--sizeofargv]);
+  return 0;
+  }
+a sample friday tuesday sunday
+b sample friday tuesday
+c sunday tuesday friday sample
+d sunday tuesday friday
+A sunday tuesday friday sample
+
+q Destructor has the same name as the constructor and it is preceded by ______ .
+a !
+b ?
+c ~
+d $
+A ~
+
+q Which of the following statement is correct about the program given below?
+  #include&lt;iostream.h&gt; 
+  int main()
+  {
+    int x = 10;
+    int &y = x;
+    x++;
+    cout<< x << " " << y++;
+    return 0; 
+  }
+a The program will print the output 11 12.
+b The program will print the output 12 11.
+c The program will print the output 12 13.
+d It will result in a compile time error.
+A The program will print the output 12 11.
+
+q What will be the output of the following program?
+  #include&lt;iostream.h&gt;
+  long BixFunction(int x, int y = 5, float z = 5)
+  {
+    return(++x * ++y + (int)++z);
+  }
+  int main()
+  {
+    cout<< BixFunction(20, 10); 
+    return 0;
+  }
+a 237
+b 242
+c 240
+d 35
+A 237
+
+q Which is a reserved word in the Java programming language?
+a method
+b native
+c subclasses
+d reference
+A native
+
+q class X implements Runnable 
+  { 
+    public static void main(String args[]) 
+    {
+        /* Missing code? */
+    } 
+    public void run() {} 
+  }
+  Which of the following line of code is suitable to start a thread ?
+a Thread t = new Thread(X);
+b Thread t = new Thread(X); t.start();
+c X run = new X(); Thread t = new Thread(run); t.start();
+d Thread t = new Thread(); x.run();
+A X run = new X(); Thread t = new Thread(run); t.start();
+
+q public class Outer 
+  { 
+    public void someOuterMethod() 
+    {
+        //Line 5 
+    } 
+    public class Inner { } 
+    
+    public static void main(String[] argv) 
+    {
+        Outer ot = new Outer(); 
+        //Line 10
+    } 
+  } 
+  Which of the following code fragments inserted, will allow to compile?
+a new Inner(); //At line 5
+b new Inner(); //At line 10
+c new ot.Inner(); //At line 10
+d new Outer.Inner(); //At line 10
+A new Inner(); //At line 5
+
+q Which class does not override the equals() and hashCode() methods, inheriting them directly from class Object?
+a java.lang.String
+b java.lang.Double
+c java.lang.StringBuffer
+d java.lang.Character
+A java.lang.StringBuffer
+
+q Which of the following utilities can be used to compile managed assemblies into processor-specific native code?
+a gacutil
+b ngen
+c sn
+d dumpbin
+A ngen
+
+q Which of the following statements should be added to the subroutine fun( ) if the C#.NET code snippet given below is to output 9 13?
+  class BaseClass
+  {
+    protected int i = 13;
+  }
+  class Derived: BaseClass
+  {
+    int i = 9; 
+    public void fun()
+    {
+        // [*** Add statement here ***]
+    } 
+  }
+a Console.WriteLine(base.i + " " + i);
+b Console.WriteLine(i + " " + base.i);
+c Console.WriteLine(mybase.i + " " + i);
+d Console.WriteLine(i + " " + mybase.i);
+A Console.WriteLine(i + " " + base.i);
+
+q Why JavaScript is called as Lightweight Programming Language ?
+a because JS can provide programming functionality inside but up to certain extend.
+b because JS is client side scripting
+c because JS is available free of cost.
+d because we can add programming functionality inside JS
+A because JS can provide programming functionality inside but up to certain extend.
+
+q The one-liner code that concatenates all strings passed into a function is
+a function concatenate() 
+   {
+        return String.prototype.concat('', arguments);
+   }
+b function concatenate() 
+   {
+        return String.prototype.apply('', arguments);
+   }
+c function concatenate() 
+   {
+       return String.concat.apply('', arguments);
+   }
+d function concatenate() 
+   {
+       return String.prototype.concat.apply('', arguments);
+   }
+A function concatenate() 
+   {
+        return String.prototype.apply('', arguments);
+   }
+
+q Consider the following code snippet
+  while (a != 0)
+  {
+   if (a == 1) 
+       continue;
+   else 
+       a++;
+  }
+  What will be the role of the continue keyword in the above code snippet?
+a The continue keyword restarts the loop
+b The continue keyword skips the next iteration
+c The continue keyword skips the rest of the statements in that iteration
+d None of the mentioned
+A The continue keyword skips the rest of the statements in that iteration
+
+q An on-line commercial site such as Amazon.com is an example of a(n) ________ .
+a single-user database application
+b multiuser database application
+c e-commerce database application
+d data mining database application
+A e-commerce database application
+
+q The command to remove rows from a table 'CUSTOMER' is:
+a REMOVE FROM CUSTOMER ...
+b DROP FROM CUSTOMER ...
+c DELETE FROM CUSTOMER WHERE ...
+d UPDATE FROM CUSTOMER ...
+A DELETE FROM CUSTOMER WHERE ...
+
+q When three or more AND and OR conditions are combined, it is easier to use the SQL keyword(s):
+a LIKE only.
+b IN only.
+c NOT IN only.
+d Both IN and NOT IN.
+A Both IN and NOT IN.
+
+q How much testing is enough 
+a This question is impossible to answer
+b The answer depends on the risks for your industry, contract and special requirements
+c The answer depends on the maturity of your developers
+d The answer should be standardized for the software development industry
+A The answer depends on the risks for your industry, contract and special requirements
+
+q Which of the following could be a reason for a failure
+  1)Testing fault
+  2) Software fault
+  3) Design fault
+  4) Environment Fault
+  5) Documentation Fault
+a 2 is a valid reason; 1,3,4 & 5 are not
+b 1,2,3,4 are valid reasons; 5 is not
+c 1,2,3 are valid reasons; 4 & 5 are not
+d All of them are valid reasons for failure
+A All of them are valid reasons for failure
+
+q Testware(test cases, test dataset)
+a Needs configuration management just like requirements, design and code
+b Should be newly constructed for each new version of the software
+c Is needed only until the software is released into production or use
+d Does not need to be documented and commented, as it does not form part of the released software system
+A Needs configuration management just like requirements, design and code
+
+q Which tag allows you to add a row in a table?
+a &lt;td&gt; and &lt;/td&gt;
+b &lt;cr&gt; and &lt;/cr&gt;
+c &lt;th&gt; and &lt;/th&gt;
+d &lt;tr&gt; and &lt;/tr&gt;
+A &lt;th&gt; and &lt;/th&gt;

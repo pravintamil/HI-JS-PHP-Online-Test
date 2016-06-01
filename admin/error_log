@@ -1,0 +1,25 @@
+[28-Apr-2016 16:23:22 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/knoneaet/public_html/testing/knxhiring/admin/index.php on line 57
+[28-Apr-2016 16:23:22 Asia/Calcutta] PHP Notice:  Undefined index: name in /home/knoneaet/public_html/testing/knxhiring/admin/index.php on line 63
+[28-Apr-2016 16:23:22 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/index.php on line 135
+[28-Apr-2016 16:23:22 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/index.php on line 136
+[28-Apr-2016 16:23:25 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/knoneaet/public_html/testing/knxhiring/admin/user_list.php on line 57
+[28-Apr-2016 16:23:25 Asia/Calcutta] PHP Notice:  Undefined index: name in /home/knoneaet/public_html/testing/knxhiring/admin/user_list.php on line 63
+[28-Apr-2016 16:23:25 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/user_list.php on line 136
+[28-Apr-2016 16:23:25 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/user_list.php on line 137
+[28-Apr-2016 16:23:26 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/knoneaet/public_html/testing/knxhiring/admin/rank.php on line 57
+[28-Apr-2016 16:23:26 Asia/Calcutta] PHP Notice:  Undefined index: name in /home/knoneaet/public_html/testing/knxhiring/admin/rank.php on line 63
+[28-Apr-2016 16:23:26 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/rank.php on line 143
+[28-Apr-2016 16:23:26 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/rank.php on line 144
+[28-Apr-2016 16:23:28 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/knoneaet/public_html/testing/knxhiring/admin/select user.php on line 57
+[28-Apr-2016 16:23:28 Asia/Calcutta] PHP Notice:  Undefined index: name in /home/knoneaet/public_html/testing/knxhiring/admin/select user.php on line 63
+[28-Apr-2016 16:23:28 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/select user.php on line 143
+[28-Apr-2016 16:23:28 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/select user.php on line 144
+[28-Apr-2016 16:23:29 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/knoneaet/public_html/testing/knxhiring/admin/feedback.php on line 52
+[28-Apr-2016 16:23:29 Asia/Calcutta] PHP Notice:  Undefined index: name in /home/knoneaet/public_html/testing/knxhiring/admin/feedback.php on line 58
+[28-Apr-2016 16:23:29 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/feedback.php on line 131
+[28-Apr-2016 16:23:29 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/feedback.php on line 132
+[28-Apr-2016 16:23:29 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/feedback.php on line 136
+[28-Apr-2016 16:23:30 Asia/Calcutta] PHP Notice:  A session had already been started - ignoring session_start() in /home/knoneaet/public_html/testing/knxhiring/admin/exams.php on line 103
+[28-Apr-2016 16:23:30 Asia/Calcutta] PHP Notice:  Undefined index: name in /home/knoneaet/public_html/testing/knxhiring/admin/exams.php on line 109
+[28-Apr-2016 16:23:30 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/exams.php on line 239
+[28-Apr-2016 16:23:30 Asia/Calcutta] PHP Notice:  Undefined index: limit in /home/knoneaet/public_html/testing/knxhiring/admin/exams.php on line 240

@@ -1,0 +1,16 @@
+TRUNCATE z_answer;
+TRUNCATE z_exam;
+TRUNCATE z_history;
+TRUNCATE z_feedback;
+TRUNCATE z_options;
+TRUNCATE z_question;
+TRUNCATE z_rank;
+TRUNCATE z_user;
+TRUNCATE answer;
+TRUNCATE exam;
+TRUNCATE feedback;
+TRUNCATE history;
+TRUNCATE options;
+TRUNCATE question;
+TRUNCATE rank;
+TRUNCATE user;

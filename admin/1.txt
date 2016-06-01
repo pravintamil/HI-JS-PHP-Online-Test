@@ -1,0 +1,165 @@
+Using+which+of+the+following+way+can+you+embed+PHP+code+in+an+HTML+page%3F
+%3C%3Fphp+PHP+code+goes+here+%3F%3E
+q: Using+which+of+the+following+way+can+you+embed+PHP+code+in+an+HTML+page%3F
+%3C%3F+PHP+code+goes+here+%3F%3E
+a: %3C%3Fphp+PHP+code+goes+here+%3F%3E
+%3Cscript+language%3D%27php%27%3E
+b: %3C%3F+PHP+code+goes+here+%3F%3E
+PHP+code+goes+here
+%3C%2Fscript%3E
+All+of+the+above
+c: %3Cscript+language%3D%27php%27%3E%3Cbr%3E
+PHP+code+goes+here%3Cbr%3E
+%3C%2Fscript%3E
+All+of+the+above
+d: All+of+the+above
+
+A: 
+
+What+is+the+difference+between+echo+and+print%3F
+They+both+behave+the+same.
+q: What+is+the+difference+between+echo+and+print%3F
+Print+can+take+multiple+parameters+where+as+echo+cannot
+a: They+both+behave+the+same.
+Echo+can+take+multiple+parameters+where+as+print+cannot
+b: Print+can+take+multiple+parameters+where+as+echo+cannot
+Print+is+a+function+where+as+echo+is+not.
+c: Echo+can+take+multiple+parameters+where+as+print+cannot
+Echo+can+take+multiple+parameters+where+as+print+cannot
+d: Print+is+a+function+where+as+echo+is+not.
+
+A: 
+
+All+variables+in+PHP+start+with+which+symbol%3F+
+%21
+q: All+variables+in+PHP+start+with+which+symbol%3F+
+%24
+a: %21
+%26
+b: %24
+%25
+c: %26
+%24
+d: %25
+
+A: 
+
+How+would+you+add+1+to+the+variable+%24count%3F+
+incr+count%3B+
+q: How+would+you+add+1+to+the+variable+%24count%3F+
+%24count%2B%2B%3B
+a: incr+count%3B+
+%24count+%3D%2B1+
+b: %24count%2B%2B%3B
+incr+%24count%3B+
+c: %24count+%3D%2B1+
+%24count%2B%2B%3B
+d: incr+%24count%3B+
+
+A: 
+
+what+is+the+return+value+of+this+substr+function%3F
+%3C%3Fphp+%24rest+%3D+substr%28%27abcdef%27%2C+-1%29%3B
+%24rest+%3D+substr%28%27abcdef%27%2C+0%2C+-1%29%3B
+%3F%3E
+f%2Cabcde
+q: what+is+the+return+value+of+this+substr+function%3F%3Cbr%3E
+%3C%3Fphp+%24rest+%3D+substr%28%27abcdef%27%2C+-1%29%3B%3Cbr%3E
+%24rest+%3D+substr%28%27abcdef%27%2C+0%2C+-1%29%3B%3Cbr%3E
+%3F%3E
+b%2Cabcdef
+a: f%2Cabcde
+a%2Cfedcb
+b: b%2Cabcdef
+a%2Cabcde
+c: a%2Cfedcb
+f%2Cabcde
+d: a%2Cabcde
+
+A: 
+
+What+is+the+output+%3F+
+%3C%3Fphp
+%24arr+%3D+array%285+%3D%3E+1%2C+12+%3D%3E+2%29%3B%C2%A0
+%24arr%5B%5D+%3D+56%3B%C2%A0
+%24arr%5B%27x%27%5D+%3D+42%3B+
+unset%28%24arr%29%3B%C2%A0
+echo+var_dump%28%24arr%29%3B+
+%3F%3E
+56
+q: What+is+the+output+%3F+%3Cbr%3E
+%3C%3Fphp%3Cbr%3E
+%24arr+%3D+array%285+%3D%3E+1%2C+12+%3D%3E+2%29%3B%C2%A0%3Cbr%3E
+%24arr%5B%5D+%3D+56%3B%C2%A0%3Cbr%3E
+%24arr%5B%27x%27%5D+%3D+42%3B+%3Cbr%3E
+unset%28%24arr%29%3B%C2%A0%3Cbr%3E
+echo+var_dump%28%24arr%29%3B+%3Cbr%3E
+%3F%3E
+x%3D42
+a: 56
+42
+b: x%3D42
+Null
+c: 42
+Null
+d: Null
+
+A: 
+
+Which+of+the%C2%A0following%C2%A0are+valid+float+values%3F
+4.5678
+q: Which+of+the%C2%A0following%C2%A0are+valid+float+values%3F
+4.0
+a: 4.5678
+7e4
+b: 4.0
+All+of+above
+c: 7e4
+All+of+above
+d: All+of+above
+
+A: 
+
+Which+of+the+following+function+is+used+to+read+the+content+of+a+file%3F
+fopen%28%29
+q: Which+of+the+following+function+is+used+to+read+the+content+of+a+file%3F
+fread%28%29
+a: fopen%28%29
+filesize%28%29
+b: fread%28%29
+file_exist%28%29
+c: filesize%28%29
+fread%28%29
+d: file_exist%28%29
+
+A: 
+
+value+that+has+no+defined+value+is+expressed+in+PHP+with+the+following+keyword%3A
+undef
+q: value+that+has+no+defined+value+is+expressed+in+PHP+with+the+following+keyword%3A
+null
+a: undef
+None
+b: null
+There+is+no+such+concept+in+PHP
+c: None
+null
+d: There+is+no+such+concept+in+PHP
+
+A: 
+
+In+PHP%2C+which+of+the+following+function+is+used+to+insert+content+of+one+php+file+into+another+php+file+before+server+executes+it
+include%5B%5D
+q: In+PHP%2C+which+of+the+following+function+is+used+to+insert+content+of+one+php+file+into+another+php+file+before+server+executes+it
+%23include%28%29
+a: include%5B%5D
+%23include%7B%7D
+b: %23include%28%29
+include%28%29
+c: %23include%7B%7D
+include%28%29
+d: include%28%29
+
+A: 
+
+tot : 10 

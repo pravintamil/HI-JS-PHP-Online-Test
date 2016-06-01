@@ -1,0 +1,81 @@
+q Using which of the following way can you embed PHP code in an HTML page?
+a <?php PHP code goes here ?>
+b <? PHP code goes here ?>
+c <script language='php'>
+  PHP code goes here
+  </script>
+d All of the above
+A All of the above
+
+q What is the difference between echo and print?
+a They both behave the same.
+b Print can take multiple parameters where as echo cannot
+c Echo can take multiple parameters where as print cannot
+d Print is a function where as echo is not.
+A Echo can take multiple parameters where as print cannot
+
+q All variables in PHP start with which symbol? 
+a !
+b $
+c &
+d %
+A $
+
+q How would you add 1 to the variable $count? 
+a incr count; 
+b $count++;
+c $count =+1 
+d incr $count; 
+A $count++;
+
+q what is the return value of this substr function?
+  <?php $rest = substr('abcdef', -1);
+  $rest = substr('abcdef', 0, -1);
+  ?>
+a f,abcde
+b b,abcdef
+c a,fedcb
+d a,abcde
+A f,abcde
+
+q What is the output ? 
+  <?php
+  $arr = array(5 => 1, 12 => 2); 
+  $arr[] = 56; 
+  $arr['x'] = 42; 
+  unset($arr); 
+  echo var_dump($arr); 
+  ?>
+a 56
+b x=42
+c 42
+d Null
+A Null
+
+q Which of the following are valid float values?
+a 4.5678
+b 4.0
+c 7e4
+d All of above
+A All of above
+
+q Which of the following function is used to read the content of a file?
+a fopen()
+b fread()
+c filesize()
+d file_exist()
+A fread()
+
+q value that has no defined value is expressed in PHP with the following keyword:
+a undef
+b null
+c None
+d There is no such concept in PHP
+A null
+
+q In PHP, which of the following function is used to insert content of one php file into another php file before server executes it
+a include[]
+b #include()
+c #include{}
+d include()
+A include()
